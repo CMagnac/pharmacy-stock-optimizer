@@ -1,2 +1,44 @@
-data/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Processed data
+data/processed/
+
+# Sensitive / local raw data
+data/raw/
+
+# Temporary files
 tmp/
