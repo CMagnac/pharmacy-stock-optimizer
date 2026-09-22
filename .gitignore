@@ -42,3 +42,6 @@ data/raw/
 
 # Temporary files
 tmp/
+
+# Generated reports
+reports/figures/
