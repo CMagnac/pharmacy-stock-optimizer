@@ -3,14 +3,21 @@ from pathlib import Path
 from pharmacy_stock.pipeline import process_inventory
 
 
+# INPUT_FILE = Path(
+#     "data/raw/inventory_2026_08.csv"
+# )
+
+# OUTPUT_FILE = Path(
+#     "data/processed/inventory_2026_08.parquet"
+# )
+
 INPUT_FILE = Path(
-    "data/raw/inventory_2026_08.csv"
+    "data/raw/full_inventory_2026_09.csv"
 )
 
 OUTPUT_FILE = Path(
-    "data/processed/inventory_2026_08.parquet"
+    "data/processed/full_inventory_2026_09.parquet"
 )
-
 
 def main():
     print("Starting inventory processing...")
