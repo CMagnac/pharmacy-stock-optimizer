@@ -156,9 +156,9 @@ The project will compare three complementary classification methods.
 
 ABC analysis classifies products according to their contribution to annual consumption value.
 
-- **A:** products contributing the largest share of consumption value.
-- **B:** products of intermediate economic importance.
-- **C:** products contributing the smallest share.
+- **A :** products contributing the largest share of consumption value.
+- **B :** products of intermediate economic importance.
+- **C :** products contributing the smallest share.
 
 The analysis will use dispensed quantities and an appropriate unit acquisition cost. Classification thresholds will be documented and configurable.
 
@@ -166,9 +166,9 @@ The analysis will use dispensed quantities and an appropriate unit acquisition c
 
 XYZ analysis classifies products according to the stability and predictability of demand.
 
-- **X:** relatively stable demand.
-- **Y:** variable demand.
-- **Z:** irregular or difficult-to-predict demand.
+- **X :** relatively stable demand.
+- **Y :** variable demand.
+- **Z :** irregular or difficult-to-predict demand.
 
 Monthly dispensing quantities will be used to estimate demand variability. The treatment of zero-demand months, intermittent demand, and incomplete calendar months will be defined explicitly.
 
@@ -176,9 +176,9 @@ Monthly dispensing quantities will be used to estimate demand variability. The t
 
 FSN analysis classifies products according to their movement over a defined observation period.
 
-- **F — Fast-moving:** frequent product movement.
-- **S — Slow-moving:** less frequent movement.
-- **N — Non-moving:** no recorded movement during the observation period.
+- **F Fast-moving :** frequent product movement.
+- **S Slow-moving :** less frequent movement.
+- **N Non-moving :** no recorded movement during the observation period.
 
 The analysis will consider transaction frequency and, where useful, total quantity dispensed. The observation period and category thresholds will be documented.
 
@@ -209,13 +209,13 @@ These parameters will be introduced only when the required data and assumptions 
 
 ## Technologies
 
-- **Python** — core application and analysis logic.
-- **Pandas** — data cleaning, transformation, and aggregation.
-- **Parquet** — storage of processed analytical datasets.
-- **Pytest** — automated testing.
-- **Matplotlib / Plotly** — charts and visual analysis.
-- **Streamlit** — potential interactive dashboard.
-- **SQLite** — a possible future option for structured historical storage.
+- **Python**, core application and analysis logic.
+- **Pandas**, data cleaning, transformation, and aggregation.
+- **Parquet**, storage of processed analytical datasets.
+- **Pytest**, automated testing.
+- **Matplotlib / Plotly**, charts and visual analysis.
+- **Streamlit**, potential interactive dashboard.
+- **SQLite**, a possible future option for structured historical storage.
 
 Optimization libraries such as SciPy or OR-Tools may be introduced if the project later requires formal optimization models.
 
